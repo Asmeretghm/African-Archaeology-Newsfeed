@@ -5,6 +5,7 @@ To access this project, it has be run using live-server. I used the following in
 
 API used: https://newsapi.org
 
+Use your API
 
 
 

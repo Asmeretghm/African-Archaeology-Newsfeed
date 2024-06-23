@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to fetch news data from an API (simulated data here)
     async function fetchNews() {
         try {
-            const response = await fetch('https://newsapi.org/v2/everything?q=african%20archaeology&apiKey=df51ce3506e04159a66d77ea59bbe61f');
+            const response = await fetch('https://newsapi.org/v2/everything?q=african%20archaeology&apiKey=YourAPIKey');
             const data = await response.json();
             console.log(data)
             return data.articles;
